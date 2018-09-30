@@ -1,0 +1,31 @@
+{
+  "name": "aws-profile-utils",
+  "version": "1.0.0",
+  "description": "Utils for managing AWS creds",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ],
+  "scripts": {
+    "publish": "git push origin && git push origin --tags",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidWells/aws-profile-utils.git"
+  },
+  "author": "David Wells",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidWells/aws-profile-utils/issues"
+  },
+  "homepage": "https://github.com/DavidWells/aws-profile-utils#readme"
+}
