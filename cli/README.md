@@ -19,7 +19,7 @@ $ npm install -g aws-profile-cli
 $ awss COMMAND
 running command...
 $ awss (-v|--version|version)
-aws-profile-cli/0.0.0 darwin-x64 node-v10.4.1
+aws-profile-cli/0.0.1 darwin-x64 node-v10.4.1
 $ awss --help [COMMAND]
 USAGE
   $ awss COMMAND
@@ -58,7 +58,7 @@ USAGE
   $ awss switch
 ```
 
-_See code: [src/commands/switch.js](https://github.com/DavidWells/aws-profile-utils/blob/v0.0.0/src/commands/switch.js)_
+_See code: [src/commands/switch.js](https://github.com/DavidWells/aws-profile-utils/blob/v0.0.1/src/commands/switch.js)_
 
 ## `awss whoami`
 
@@ -69,5 +69,5 @@ USAGE
   $ awss whoami
 ```
 
-_See code: [src/commands/whoami.js](https://github.com/DavidWells/aws-profile-utils/blob/v0.0.0/src/commands/whoami.js)_
+_See code: [src/commands/whoami.js](https://github.com/DavidWells/aws-profile-utils/blob/v0.0.1/src/commands/whoami.js)_
 <!-- commandsstop -->
