@@ -1,4 +1,4 @@
-# AWS profile utils
+# AWS profile CLI & Utils
 
 Utility methods for updating AWS profile credentials on a machine.
 
