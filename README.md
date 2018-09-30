@@ -6,4 +6,4 @@ Utility methods for updating AWS profile credentials on a machine.
 
 ^^^^^^^^^^^^^^^^^^^^^
 
-
+Companion CLI [aws-profile-cli](https://www.npmjs.com/package/aws-profile-cli)

@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "author": "DavidWells @DavidWells",
   "bin": {
-     "awss": "./bin/run",
-    "aws-profile": "./bin/run",
+    "awss": "./bin/run",
+    "aws-profile": "./bin/run"
   },
   "bugs": "https://github.com/DavidWells/aws-profile-utils/issues",
   "dependencies": {

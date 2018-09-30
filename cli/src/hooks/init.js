@@ -7,5 +7,6 @@ module.exports = async context => {
 		await WhoAmICommand.run()
 		console.log()
  		await SwitchCommand.run()
+ 		process.exit()
 	}
 }
