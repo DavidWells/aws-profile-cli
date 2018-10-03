@@ -22,3 +22,5 @@ awss
 
 **WARNING** Please setup [2 factor authentication in AWS](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html) to avoid AWS admin credentials from being stolen & exploited.
 
+See [assume-role](https://github.com/remind101/assume-role) CLI for MFA.
+
