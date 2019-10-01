@@ -12,7 +12,7 @@
     "@oclif/command": "^1.5.1",
     "@oclif/config": "^1.7.6",
     "@oclif/plugin-help": "^2.1.2",
-    "aws-profile-utils": "0.0.1",
+    "aws-profile-utils": "0.0.3",
     "inquirer": "^6.2.0"
   },
   "devDependencies": {
@@ -37,7 +37,7 @@
   "oclif": {
     "commands": "./src/commands",
     "bin": "awss",
-     "hooks": {
+    "hooks": {
       "init": [
         "./src/hooks/init"
       ]
