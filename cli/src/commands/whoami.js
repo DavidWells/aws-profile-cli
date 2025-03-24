@@ -24,6 +24,18 @@ class WhoAmICommand extends Command {
 
     console.log('You are currently logged in as:')
 	  console.log(`> ${currentProfile[0]}`)
+
+    if (process.env.AWS_PROFILE) {
+      console.log(`\nShell Session AWS_PROFILE environment variable set to:`)
+      console.log(`> ${process.env.AWS_PROFILE}`)
+    }
+
+    if (process.env.AWS_PROFILE && process.env.AWS_PROFILE !== currentProfile[0]) {
+      console.log()
+      console.log(`Warning: AWS_PROFILE env var "${process.env.AWS_PROFILE}" is different from your current profile "${currentProfile[0]}". This can cause unexpected aws cli behavior.`)
+      console.log('\nTo fix this, run:')
+      console.log('\nunset AWS_PROFILE\n')
+    }
   }
 }
 

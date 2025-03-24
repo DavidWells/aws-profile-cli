@@ -31,6 +31,13 @@ class SwitchCommand extends Command {
 
 	  if (accountToSwitchTo) {
 	  	replaceDefaultProfile(accountToSwitchTo.replace(' (current default profile)', ''))
+      if (process.env.AWS_PROFILE && process.env.AWS_PROFILE !== accountToSwitchTo) {
+        console.log()
+        console.log(`Warning: AWS_PROFILE environment variable is set to "${process.env.AWS_PROFILE}" in this shell.`)
+        console.log('This can cause unexpected aws cli behavior.')
+        console.log('\nTo fix this, run:')
+        console.log('\nunset AWS_PROFILE\n')
+      }
 	  }
   }
 }
